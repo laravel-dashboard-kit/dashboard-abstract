@@ -5,7 +5,7 @@ namespace LDK\DashboardAbstract\Concerns;
 /**
  * Livewire methods
  */
-trait WithAdminUI
+trait WithDashboardUI
 {
     public function reloadWindow()
     {

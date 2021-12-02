@@ -6,9 +6,9 @@ use Akhaled\LivewireSweetalert\Fire;
 use Akhaled\LivewireSweetalert\Toast;
 use Akhaled\LivewireSweetalert\Confirm;
 use Livewire\Component as BaseComponent;
-use LDK\DashboardAbstract\Concerns\WithAdminUI;
+use LDK\DashboardAbstract\Concerns\WithDashboardUI;
 
 class Component extends BaseComponent
 {
-    use WithAdminUI, Confirm, Toast, Fire;
+    use WithDashboardUI, Confirm, Toast, Fire;
 }
