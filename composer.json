@@ -32,7 +32,10 @@
       "LDK\\DashboardAbstract\\": "src",
       "LDK\\DashboardAbstract\\Database\\Factories\\": "database/factories",
       "LDK\\DashboardAbstract\\Database\\Seeders\\": "database/seeders/"
-    }
+    },
+    "files": [
+      "./helpers/all.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {
