@@ -5,7 +5,8 @@
 
 @livewireScripts
 @livewireSweetalertScripts
-@notifyJs
+<script type="text/javascript"
+src="{{ asset('assets/dashboard/vendor/mckenziearts/laravel-notify/js/notify.js') }}"></script>
 
 <form id="logout-form"
     action="{{ config('dashboard-ui.url.logout') }}"

@@ -1,4 +1,4 @@
-# LDK Package DashboardAbstract
+# LDK Dashboard Abstract
 
 ## Generate Laravel Classes
 
@@ -31,8 +31,6 @@ Available **commands**
 - `make:rule` Create a new validation rule
 - `make:test` Create a new test class
 
-## Resources
+## Todo
 
-- [Laravel Package](https://laravelpackage.com/)
-- [Orchestra](https://packages.tools/testbench/getting-started/introduction.html)
-- [Canvas](https://github.com/orchestral/canvas)
+- Create custom directive for dir attribute '@dir'
