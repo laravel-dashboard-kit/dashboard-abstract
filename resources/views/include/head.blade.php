@@ -17,4 +17,4 @@
 
 <link rel="stylesheet"
     type="text/css"
-    href="{{ '/assets/dashboard/abstract/vendor/mckenziearts/laravel-notify/css/notify.css' }}" />
+    href="{{ '/assets/dashboard/abstract/laravel-notify/css/notify.css' }}" />
