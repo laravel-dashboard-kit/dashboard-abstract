@@ -8,6 +8,7 @@ use Illuminate\View\Component as BaseComponent;
 abstract class Component extends BaseComponent
 {
     public $class;
+    public $defaultAttributes = [];
 
     public function __construct()
     {
@@ -19,6 +20,8 @@ abstract class Component extends BaseComponent
     public function class(array $classes = [])
     {
         $this->class = Arr::toCssClasses($classes);
+
+        $this->defaultAttributes['class'] = $this->class;
 
         return $this;
     }
